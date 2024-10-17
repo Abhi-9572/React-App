@@ -1,18 +1,14 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-import InfiniteScrolling from './apps/infiniteScrolling/InfiniteScrolling'
-import Debounce from './apps/debounceThrottling/Debounce'
+import "./App.css";
+import CustomDebounce from "./apps/debounceThrottling/CustomDebounce";
+import CustomThrottle from "./apps/debounceThrottling/CustomTrottle";
 
 function App() {
-
   return (
     <>
-     {/* <InfiniteScrolling/> */}
-     <Debounce/>
+      {/* <CustomDebounce /> */}
+      <CustomThrottle />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
